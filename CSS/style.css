@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-header{
+    width: 100%;
+}
+.card-index{
+    margin: 80px;
+}
+.main{
+    display: flex;
+}
+.card-img-top{
+    width: 100%;
+    height: 60%;
+}
+.card-img-top:hover{
+    transform: scale(1.5);
+}
+.card-title{
+    margin-top: 5px;
+}
+.card-text{
+    margin-top: 5px;
+}
+.footer{
+    display: flex;
+}
+.footer li{
+    list-style-type: none;
+}
+.footer-titulo{
+    margin-left: 30px;
+}
+.footer-dudas{
+    justify-self: left;
+    margin-left: 50px;
+}
+.footer-contacto{
+    margin-left: 200px;
+}
+.footer-redes{
+   margin-left: 150px;
+}
+.free-shipping{
+    width: 400px;
+    animation-name: mover;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.form{
+    width: 400px;
+    margin-left: 460px;
+    margin-top: 30px;
+    padding: 50px;
+    border-style:groove;
+}
+.input{
+    width: 250px;
+    transition: 1s;
+}
+.input:focus{
+    width: 300px;
+}
+
+.iniciosesion{
+    text-decoration: underline;
+    color: blue;
+}
+@keyframes mover {
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(100px,0);
+    }
+    50%{
+        transform: translate(250px,0);
+    }
+    75%{
+        transform: translate(500px,0);
+    }
+    100%{
+        transform: translate(800px,0);
+    }
+}
+.container{
+margin-top: 100px;
+align-self: center;
+}
+texto-nosotros{
+margin: 80px;
+}
+.foto-nosotros{
+    width: 1000px;
+    margin-left: 200px;
+  
+}
+.titulo-nosotros{
+    text-align: center;
+}
